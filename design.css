@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(rgb(245, 238, 195), rgb(248, 228, 150), rgb(249, 219, 101)) ;
+    background-repeat: no-repeat;
+    padding-bottom: 16vh;
+}
+
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#gamecontainer{
+    font-family: "Times New Roman", Verdana;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    padding-top: 20vh;
+}
+
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+    border: solid 5px;
+}
+
+button{
+    border: solid 2px rgb(3, 3, 3);
+    font-family: "Times New Roman", Verdana;
+    border-radius: 10px;
+    background-color: rgb(230, 58, 24);
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button:hover{
+    color: rgb(233, 16, 16);
+    background-color: beige;
+}
+
+.cell:hover{
+    color: rgb(212, 62, 62); 
+}
